@@ -1,22 +1,58 @@
 aid: friendly
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/friendly.png
 name: Friend.ly
-description: Friend.ly is a company surfaced as a portfolio company of uncork-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Friend.ly was a social question-and-answer service that let people meet and
+  connect by answering fun, get-to-know-you questions, launched around 2010 by a
+  team led by Ed Baker. It raised roughly $5M from Lightspeed Ventures, Balderton
+  Capital, SoftTech VC (now Uncork Capital), and a range of angels, and was
+  acquired by Facebook (now Meta) on October 10, 2011 — primarily an acqui-hire,
+  with the founding team moving to Facebook to work on growth and new products.
+  The consumer service was wound down after the acquisition. This profile is
+  retained in the API Evangelist network as a historical portfolio-company record
+  for Uncork Capital; the friend.ly domain is now parked and the company operates
+  no public API, developer portal, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/friendly/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
+x-status: defunct
+x-acquired-by: Meta (Facebook)
+x-acquired-date: '2011-10-10'
 x-backed-by:
 - uncork-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Social
+- Q&A
+- Consumer
+- Mobile
+- Acquired
+- Defunct
+- Facebook
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
